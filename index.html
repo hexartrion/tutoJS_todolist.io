@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="img">
+        <div class="content">
+            <h2 id ="clock">00:00:00</h2>
+            <form id="login-form">
+                <input type="text" placeholder="What your name?" required maxlength="15"/>
+                <button>Log In</button>
+            </form>
+            <h1 class="hidden" id="hello"></h1>
+            <form id="todo-form">
+                <input id="todo-input" type="text" placeholder="Input TO DO!!" required>      
+            </form>
+            <ul id = "todo-list"></ul>
+            <div id = "quote">
+                <span></span>
+                <span></span>
+            </div>
+            <div id="weather">
+                <span></span>
+                <span></span>
+                <span id = "reSearch"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/hello.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
